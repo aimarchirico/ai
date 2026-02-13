@@ -37,3 +37,15 @@ The Observation matrix B, where rows are X_t and columns are E_t:
 The model assumes a discrete-time framework with time slices (0, 1, 2, ...) where the interval Δ between slices is constant. Each slice contains the same set of variables: unobservable state variables X_t and observable evidence variables E_t. In the umbrella world, X_t represents whether it is raining (Rain_t), and E_t represents whether an umbrella is observed (Umbrella_t). The state sequence starts at t=0, with evidence from t=1 onward.
 
 These assumptions are reasonable as they model temporal processes discretely, allowing probabilistic inference about hidden weather states from umbrella observations over time.
+
+## Exercise 2
+
+### Verification
+![alt text](image-2.png)
+
+The code results verify P(X_2 | e_{1:2}) = 0.883.
+
+### Forward Messages for Sequence e_{1:5}
+![alt text](image-3.png)
+
+The code results for sequence e_{1:5} calculate P(X_5 | e_{1:5}) = 0.867.
