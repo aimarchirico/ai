@@ -42,6 +42,10 @@ This model addresses the decision of selecting a dinner menu from three options:
 </figure>
 
 
+## Assumptions
+
+The model assumes that the uncertain variables, CookingTime, TasteQuality, KitchenMess, AmountOfLeftovers, and FullnessLevel, are conditionally independent given the MealChoice. While in reality a rushed meal might taste worse, this simplification makes the model more manageable. Furthermore, each uncertain variable is restricted to two states to maintain a managable utility table.  
+
 ## Optimal choice
 
 <figure>
