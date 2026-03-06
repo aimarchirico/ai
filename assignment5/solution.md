@@ -5,39 +5,39 @@
 This model addresses the decision of selecting a dinner menu from three options: nachos, pasta, or wok. The problem balances trade-offs between cooking time, fullness, taste, leftovers and mess. 
 
 <figure>
-  <img src="image-1.png" width="400">
+  <img src="images/image-1.png" width="400">
   <figcaption><i>Decision network</i></figcaption>
 </figure>
 
 ## Probability distributions
 
 <figure>
-  <img src="image-2.png">
+  <img src="images/image-2.png">
   <figcaption><i>CookingTime</i></figcaption>
 </figure>
 
 <figure>
-  <img src="image-3.png">
+  <img src="images/image-3.png">
   <figcaption><i>FullnessLevel</i></figcaption>
 </figure>
 
 <figure>
-  <img src="image-4.png">
+  <img src="images/image-4.png">
   <figcaption><i>TasteQuality</i></figcaption>
 </figure>
 
 <figure>
-  <img src="image-5.png">
+  <img src="images/image-5.png">
   <figcaption><i>AmountOfLeftovers</i></figcaption>
 </figure>
 
 <figure>
-  <img src="image-6.png">
+  <img src="images/image-6.png">
   <figcaption><i>KitchenMess</i></figcaption>
 </figure>
 
 <figure>
-  <img src="image-7.png">
+  <img src="images/image-7.png">
   <figcaption><i>Satisfaction</i></figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ The model assumes that the uncertain variables, CookingTime, TasteQuality, Kitch
 ## Optimal choice
 
 <figure>
-  <img src="image.png">
+  <img src="images/image.png">
   <figcaption><i>Expected utilities</i></figcaption>
 </figure>
 
